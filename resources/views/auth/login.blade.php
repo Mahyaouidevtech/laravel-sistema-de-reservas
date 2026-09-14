@@ -30,6 +30,9 @@
             <button type="submit" class="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold py-3 rounded-xl text-sm transition-all duration-300 mt-2">
                 Ingresar
             </button>
+             <p class="text-xs text-center text-gray-400 mt-6">
+            ¿No tienes cuenta? <a href="{{ route('register') }}" class="text-indigo-400 hover:underline">Registrate</a>
+        </p>
         </form>
     </div>
 
